@@ -60,6 +60,6 @@ dependencies {
     compile project(":jokefactory")
     compile project(path: ':backend', configuration: 'android-endpoints')
     compile 'com.android.support:appcompat-v7:24.2.1'
-    compile 'com.google.android.gms:play-services:9.4.0'
+    freeCompile 'com.google.android.gms:play-services:9.4.0'
     compile 'com.android.support:support-v4:24.2.1'
 }
